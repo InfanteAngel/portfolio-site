@@ -217,8 +217,7 @@ function App() {
               Hello! My Name is Angel, I am a Social, energetic, and
               hard-working person who is always willing to learn new skills. I
               am very dedicated and willing to go the extra mile with a proven
-              ability to work with a team. To this day, my passion for Web The
-              development keeps growing, and I am always on the lookout for new
+              ability to work with a team. To this day, my passion for Web development keeps growing, and I am always on the lookout for new
               frameworks, languages, and concepts that will push me further for
               my dream position. As I learn and better myself in this field, I
               learn how to follow these rules and break them to create beautiful
