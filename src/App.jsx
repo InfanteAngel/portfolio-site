@@ -13,6 +13,7 @@ import mainTitleImage from "../public/resume_images/horizon.jpg";
 import soccerImg from "../public/resume_images/soccer_img.jpg";
 import guitarImg from "../public/resume_images/guitar_img.jpg";
 import djImg from "../public/resume_images/dj_img.jpg";
+import angelIcon from "../public/favIcon-black.png"
 
 import softiesFrame from "../public/frames/softies-mb-frame.png";
 import palcoFrame from "../public/frames/palco-mb-frame.png";
@@ -159,13 +160,13 @@ function App() {
   return (
     <>
       <ScrollToTop />
-      <div className="main_page container primary-ff">
+      <div className="main_page container primary-ff" id="topSection">
         <div className="header-box">
           <h1 className="mainTitle uppercase ">Angel Infante</h1>
           <h4 className="main-subTitle">Frontend Developer</h4>
         </div>
         <div className="main-page-grid">
-          <div className="main-textBox accent-ff">
+          <div className="main-textBox primary-ff">
             <p>Responsive Web Design</p>
             <p>Framework / API Integration</p>
             <p>Development Tools / Libraries</p>
@@ -183,14 +184,14 @@ function App() {
           data-aos-duration="1000"
           className="sub-header-box primary-ff"
         >
-          <h1>Who Am I</h1>
+          <h1>About Me</h1>
         </div>
 
         <div className="abt-page-grid-main">
           <div className="abt-image-section">
             <div className="images-container">
               <img
-                data-aos-delay="1400"
+                data-aos-delay="1100"
                 data-aos="fade-left"
                 src={djImg}
                 alt="Dj Image"
@@ -198,7 +199,7 @@ function App() {
               />
               <img
                 data-aos="fade-right"
-                data-aos-delay="1400"
+                data-aos-delay="1100"
                 src={soccerImg}
                 alt="soccer_img"
                 id="soccer-image"
@@ -214,17 +215,20 @@ function App() {
           >
             <p>
               Hello! My Name is Angel, I am a Social, energetic, and
-              hard-working person who is always willing to learn new
-              skills. I am very dedicated and willing to go the extra
-              mile with a proven ability to work with a team. To this
-              day, my passion for Web The development keeps growing, and
-              I am always on the lookout for new frameworks, languages,
-              and concepts that will push me further for my dream
-              position. As I learn and better myself in this field, I
-              learn how to follow these rules and break them to create
-              beautiful and functional sites that have a purpose...
+              hard-working person who is always willing to learn new skills. I
+              am very dedicated and willing to go the extra mile with a proven
+              ability to work with a team. To this day, my passion for Web The
+              development keeps growing, and I am always on the lookout for new
+              frameworks, languages, and concepts that will push me further for
+              my dream position. As I learn and better myself in this field, I
+              learn how to follow these rules and break them to create beautiful
+              and functional sites that have a purpose...
             </p>
-            <Link to="/AboutPage">Learn More About Me</Link>
+            <Link to="/AboutPage">
+              <button className=" boxyButton abt-btn">
+                Learn More About Me
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -241,6 +245,9 @@ function App() {
         })}
       </div>
       <ContactSection />
+      <div className="footer-img">
+        <img data-aos="zoom-out" src={angelIcon} alt="Angel Icon" />
+      </div>
     </>
   );
 }
