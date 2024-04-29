@@ -121,7 +121,7 @@ export default function AboutPage() {
       year: "2023 - Present",
       externalText: "HTML, CSS, Jsx, React, Git",
       content:
-        "I am currently learning Front End Development through CodeHS, FronteEnd Mentor, and FreeCodeCamp. I started off learning HTML & CSS, and later on picked up JavaScript again. After getting comfortable with Vanilla Js and its basic front-end languages I decided to take it further. I started learning how to integrate APIs and got familiar with the React Framework. I worked on projects and started building up a portfolio that I could later present for a potential job opportunity. I am currently hoping to jump into other frameworks like Tailwind CSS, and Angular. My plan is to one day become a fullstack developer in these initial stepping stones will lead the way toward my end goal.",
+        "I am currently learning Front End Development through CodeHS, FronteEnd Mentor, and FreeCodeCamp. I started off learning HTML & CSS, and later on picked up JavaScript again. After getting comfortable with Vanilla Js and its basic front-end languages I decided to take it further. I started learning how to integrate APIs and got familiar with the React Framework. I worked on projects and started building up a portfolio that I could later present for a potential job opportunity. I am currently hoping to jump into other frameworks like Tailwind CSS, and Angular. My plan is to one day become a fullstack developer, using Front End as my initial stepping stone.",
       id: 5,
     },
   ];
@@ -257,7 +257,7 @@ export default function AboutPage() {
               cattle, and waking up early in the morning with the vocals
               of the roosters and the chitter of the townspeople. From
               tacos to gorditas, burritos and hot chocolate all around
-              December is ust a small taste of what awaits every year. I
+              December is just a small taste of what awaits every year. I
               will always be joyful to represent where I come from, and
               will never forget those who I left behind for a better
               opportunity.

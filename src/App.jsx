@@ -63,7 +63,7 @@ const projectContent = [
     title: "TlaxTech Website",
     tagline: "Your Vision is our reality. Experts in landing pages & beyond",
     textContent:
-      "With an eager desire to create a small business for small businesses, Tlax set itself in the internet realm with one goal: create eye-catching landing pages with a purpose. A landing page service, with hosting services and UX/UI design included. Set yourself apart, and accomplish your business goals with our landing pages.",
+      "With an eager desire to create a small business for small businesses, Tlax set itself in the internet realm with one goal: create eye-catching landing pages with a purpose. A landing page service, with hosting services and UX/UI design included. With Tlax, set yourself apart, and accomplish your business goals with our landing pages.",
     buttonText: "A Deeper Look",
     link: "https://tlaxtech.vercel.app/",
     id: 2,
@@ -92,7 +92,7 @@ const pageContentList = [
     img2: softiesAccordion,
     altImg2: "Softies Accordion Feature",
     boundariesContent:
-      "Because of the amount of details that this web page would entitle, I had a lot of boundaries I had to tackle. How would I make sure that this website is responsive for all devices? What features would require complex programming and creative thinking? My biggest boundary was my responses, many of my images were overflowing and my content would get distorted in all sorts of places. Not only that but most of my background images were not complying with me either.",
+      "Because of the amount of details that this web page would entitle, I had a lot of boundaries I had to tackle. How would I make sure that this website is responsive for all devices? What features would require complex programming and creative thinking? My biggest boundary was my responsiveness, many of my images were overflowing and my content would get distorted in all sorts of places. Not only that but most of my background images were not complying with me either.",
     link: "https://www.canva.com/design/DAF21gTKe80/MMg4pLfDImgBUV2gZsjhaQ/edit?utm_content=DAF21gTKe80&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     buttonContent: "Project Sprint",
     id: 1,

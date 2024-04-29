@@ -418,6 +418,7 @@ select {
   grid-auto-flow: column;
   justify-content: center;
   gap: 37.5vw;
+  padding-top: 3vw;
 }
 
 .contact-grid h2 {
