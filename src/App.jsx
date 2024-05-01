@@ -244,9 +244,7 @@ function App() {
         })}
       </div>
       <ContactSection />
-      <div className="footer-img">
-        <img data-aos="zoom-out" src={angelIcon} alt="Angel Icon" />
-      </div>
+
     </>
   );
 }
@@ -401,7 +399,7 @@ export const ContactSection = () => {
 
           <h2 data-aos="fade-in">FrontEndMentor</h2>
           <a
-          data-aos = "fade-in"
+            data-aos="fade-in"
             href="https://www.frontendmentor.io/profile/InfanteAngel"
             target="_blank"
             rel="noreferrer"
@@ -419,6 +417,9 @@ export const ContactSection = () => {
             Angel Infante
           </a>
         </div>
+      </div>
+      <div className="footer-img">
+        <img data-aos="zoom-out" src={angelIcon} alt="Angel Icon" />
       </div>
     </div>
   );
