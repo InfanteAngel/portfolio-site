@@ -23,7 +23,9 @@ import pythonBadge from "../assets/certification_images/mta_badge.png";
 import apBadge from "../assets/certification_images/ap_icon.png";
 import htmlCertification from "../assets/certification_images/infanteAngels-profile-_-Codecademy---html/infanteAngel's profile _ Codecademy - html_page-0001.jpg";
 import cssCertification from "../assets/certification_images/infanteAngels-profile-_-Codecademy---css/infanteAngel's profile _ Codecademy - css_page-0001.jpg";
+import codSoftCert from "../assets/certification_images/codsoft_cert.jpg";
 import ScrollToTop from "../Components/ScrollToTop";
+
 import ScrollToAnchor from "../Components/ScrollToAnchor";
 
 export const toggleOutButton = (
@@ -167,6 +169,16 @@ export default function AboutPage() {
         "HTML5 - HTML - Project Implementation - Responsive Web Design - Web Experience - Programming Languages - User Interface Design - English",
       id: 4,
     },
+    {
+      title: "CodSoft Remote Web Developer Internship",
+      image: codSoftCert,
+      imageAlt: "CodSoft Certificate Of Completion",
+      year: "2024",
+      externalText: "Web Development Internship",
+      content:
+        "Remote Internship - E-Commerce - React - Vite - JSX - HTML/CSS - Responsive Web Design - Web Experience - User Interface Design - English",
+      id: 5,
+    },
   ];
 
   // Filtered Out List Of Content
@@ -180,6 +192,7 @@ export default function AboutPage() {
   const apContent = certificationList.find(({ id }) => id === 2);
   const cssContent = certificationList.find(({ id }) => id === 3);
   const htmlContent = certificationList.find(({ id }) => id === 4);
+  const codContent = certificationList.find(({ id }) => id === 5);
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -244,23 +257,21 @@ export default function AboutPage() {
               data-aos-delay="1000"
               data-aos-duration="1000"
             >
-              With an elevation of about 1,500m, Matehuala San Luis
-              Potosi is located in the northern part of the state, on the
-              border with the southwestern corner of Nuevo Leon Mexico.
-              Known for its Cathedral, and its delicious food, there is
-              always the desire to go visit my birthplace every year.
-              With its urban parties each year, and its infamous December
-              fair, there is always a desire to spend time with my family
-              once again. I enjoy the fresh food, the ranches with its
-              animals and the vast majority of desert-like hills, peace
-              lives and breathes all around. I enjoy taking care of the
-              cattle, and waking up early in the morning with the vocals
-              of the roosters and the chitter of the townspeople. From
-              tacos to gorditas, burritos and hot chocolate all around
-              December is just a small taste of what awaits every year. I
-              will always be joyful to represent where I come from, and
-              will never forget those who I left behind for a better
-              opportunity.
+              With an elevation of about 1,500m, Matehuala San Luis Potosi is
+              located in the northern part of the state, on the border with the
+              southwestern corner of Nuevo Leon Mexico. Known for its Cathedral,
+              and its delicious food, there is always the desire to go visit my
+              birthplace every year. With its urban parties each year, and its
+              infamous December fair, there is always a desire to spend time
+              with my family once again. I enjoy the fresh food, the ranches
+              with its animals and the vast majority of desert-like hills, peace
+              lives and breathes all around. I enjoy taking care of the cattle,
+              and waking up early in the morning with the vocals of the roosters
+              and the chitter of the townspeople. From tacos to gorditas,
+              burritos and hot chocolate all around December is just a small
+              taste of what awaits every year. I will always be joyful to
+              represent where I come from, and will never forget those who I
+              left behind for a better opportunity.
             </p>
           </div>
         </div>
@@ -395,6 +406,9 @@ export default function AboutPage() {
           <EducationBox {...apContent} />
           <EducationBox {...cssContent} />
           <EducationBox {...htmlContent} />
+          <EducationBox {...codContent} />
+
+
         </div>
       </div>
 
