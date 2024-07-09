@@ -402,13 +402,11 @@ export default function AboutPage() {
           </h1>
         </div>
         <div className="education-layout">
+          <EducationBox {...codContent} />
           <EducationBox {...pythonContent} />
           <EducationBox {...apContent} />
           <EducationBox {...cssContent} />
           <EducationBox {...htmlContent} />
-          <EducationBox {...codContent} />
-
-
         </div>
       </div>
 
